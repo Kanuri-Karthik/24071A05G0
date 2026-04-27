@@ -16,7 +16,6 @@ public class EventServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         
-        // Fetch event details from form
         String eventName = request.getParameter("eventName");
         String eventDate = request.getParameter("eventDate");
         String location = request.getParameter("location");
@@ -34,7 +33,7 @@ public class EventServlet extends HttpServlet {
         
         out.println("<hr style='margin-top: 30px;'/>");
         
-        // Copyright requested by user
+    
         out.println("<footer style='text-align: center; color: #666; margin-top: 20px; font-weight: bold;'>");
         out.println("&copy; Copyright 24071A05G0");
         out.println("</footer>");
