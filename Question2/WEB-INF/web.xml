@@ -1,0 +1,14 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         version="5.0">
+
+    <servlet>
+        <servlet-name>EventServlet</servlet-name>
+        <servlet-class>EventServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EventServlet</servlet-name>
+        <url-pattern>/event</url-pattern>
+    </servlet-mapping>
+
+</web-app>
